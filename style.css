@@ -15,11 +15,19 @@ a{
     display: block;
     float: left;
 }
+ 
+.contacto{
+
+    color: gold;
+    text-align: center;
+
+}
+
 
 .logo{
     max-height: 100%;
     max-width: 350px;
-    }
+}
 
 section{
 background-image: url(./imagenes/fondo-2.jpeg);
@@ -83,4 +91,6 @@ margin-top: auto;
 
 .redes{
 color: gold;
+color: gold;
+text-align: center;
 }
