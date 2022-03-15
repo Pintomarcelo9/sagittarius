@@ -1,0 +1,17 @@
+#galeria img{
+    width: 350px;
+    height: 400px;
+}
+
+#galeria .col-lg-4{
+    padding: 25px;
+    margin: 0px;
+}
+.text-center{
+color: gold;
+font-family: cursive;
+}
+
+#galeria img:hover{
+    border: 5px solid rgb(77, 73, 73);
+}

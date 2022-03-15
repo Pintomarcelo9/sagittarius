@@ -1,0 +1,77 @@
+#galeria img {
+  width: 350px;
+  height: 400px; }
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0px; }
+
+.text-center {
+  color: gold;
+  font-family: cursive; }
+
+#galeria img:hover {
+  border: 5px solid #4d4949; }
+
+.secciones {
+  display: inline-block;
+  background-color: black; }
+
+a {
+  text-decoration: none;
+  color: gold;
+  padding: 14px 16px;
+  display: block;
+  float: left; }
+
+.secciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 40px;
+  border-width: 20px;
+  font-size: 20px; }
+
+.logo {
+  max-height: 100%;
+  max-width: 350px; }
+
+.bienvenidos {
+  color: gold;
+  font-family: 'Redressed', cursiva;
+  font-size: 50px;
+  position: 0;
+  padding-left: 150px;
+  padding-top: 0;
+  padding-bottom: 200px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.solamente {
+  color: gold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px; }
+
+section {
+  background-image: url(../imagenes/fondo-2.jpeg);
+  max-height: 100%;
+  max-width: 200%;
+  background-position: 0px 0px;
+  padding-top: auto; }
+
+.redes {
+  color: gold;
+  color: gold;
+  text-align: center; }
+
+.contacto {
+  color: gold;
+  text-align: center; }
+
+.pieDePagina {
+  background-color: black;
+  height: 150px;
+  bottom: 0;
+  margin-top: auto; }
