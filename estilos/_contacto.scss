@@ -10,3 +10,15 @@
         text-align: center;
     
     }
+
+    $redes:( 
+        twitter: rgb(0, 217, 255),
+        facebook: rgb(48, 14, 196),
+        instagram: gold,
+        ); 
+    
+    @each $red, $color in $redes{
+        .btn--#{$red}{
+            background-color: $color;
+        }
+    }

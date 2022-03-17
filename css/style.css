@@ -70,6 +70,15 @@ section {
   color: gold;
   text-align: center; }
 
+.btn--twitter {
+  background-color: #00d9ff; }
+
+.btn--facebook {
+  background-color: #300ec4; }
+
+.btn--instagram {
+  background-color: gold; }
+
 .pieDePagina {
   background-color: black;
   height: 150px;
