@@ -31,11 +31,12 @@ a{
 
 section{
 background-image: url(./imagenes/fondo-2.jpeg);
-max-height: 100%;
-max-width: 200%;
-background-position: 0px 0px;
-padding-top: auto;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
+
+
 
 .solamente{
     color: gold;
@@ -84,7 +85,7 @@ padding-bottom: 200px;
 
 .pieDePagina{
 background-color: black;
-height: 150px;
+height: auto;
 bottom: 0;
 margin-top: auto;
 }
@@ -93,4 +94,11 @@ margin-top: auto;
 color: gold;
 color: gold;
 text-align: center;
+}
+
+footer{
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
 }
