@@ -1,43 +1,27 @@
 #galeria img {
-  width: 350px;
-  height: 400px; }
+  width: 250px;
+  height: 250px; }
 
 #galeria .col-lg-4 {
   padding: 25px;
   margin: 0px; }
 
 .text-center {
-  color: gold;
+  color: #d1ab2f;
   font-family: cursive; }
 
 #galeria img:hover {
   border: 5px solid #4d4949; }
 
-.secciones {
-  display: inline-block;
-  background-color: black; }
+.navbar-dark .navbar-nav .nav-link {
+  color: #d1ab2f;
+  font-size: 1.5rem; }
 
-a {
-  text-decoration: none;
-  color: gold;
-  padding: 14px 16px;
-  display: block;
-  float: left; }
-
-.secciones {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding-right: 40px;
-  border-width: 20px;
-  font-size: 20px; }
-
-.logo {
-  max-height: 100%;
-  max-width: 350px; }
+.navbar-collapse {
+  flex-grow: initial; }
 
 .bienvenidos {
-  color: gold;
+  color: #d1ab2f;
   font-family: 'Redressed', cursiva;
   font-size: 50px;
   position: 0;
@@ -50,7 +34,7 @@ a {
   margin: 0; }
 
 .solamente {
-  color: gold;
+  color: #d1ab2f;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px; }
 
@@ -61,13 +45,14 @@ section {
   min-height: 100vh; }
 
 .redes {
-  color: gold;
-  color: gold;
+  color: #d1ab2f;
+  color: #d1ab2f;
   text-align: center; }
 
 .contacto {
-  color: gold;
-  text-align: center; }
+  color: #d1ab2f;
+  text-align: center;
+  font-size: 20px; }
 
 .btn--twitter {
   background-color: #00d9ff; }
